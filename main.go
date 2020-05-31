@@ -7,7 +7,7 @@ import (
 "github.com/golang/protobuf/protoc-gen-go/generator"
 )
 import (
-	_ "proto-gen-dubbo/dubbo"
+	_ "github.com/relaxedCat/proto-gen-dubbo/dubbo"
 )
 
 func main() {
