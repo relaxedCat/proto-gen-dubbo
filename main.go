@@ -7,13 +7,13 @@ import (
 "github.com/golang/protobuf/protoc-gen-go/generator"
 )
 import (
-	_ "github.com/relaxedCat/proto-gen-dubbo/dubbo"
+	_ "github.com/relaxedCat/protoc-gen-dubbo/dubbo"
 )
 
 func main() {
 g := generator.New()
 
-data, err := ioutil.ReadAll(os.Stdin)
+data, err := ioutil.ReadFile("/Users/xxl/gitHub/protoc-gen-dubbo/example/user/user.proto")
 if err != nil {
 g.Error(err, "reading input")
 }

@@ -1,8 +1,8 @@
-module github.com/relaxedCat/proto-gen-dubbo
+module github.com/relaxedCat/protoc-gen-dubbo
 
 require (
-	github.com/golang/protobuf v1.4.2
-	google.golang.org/protobuf v1.24.0 // indirect
+	github.com/golang/protobuf v1.3.2
+	google.golang.org/grpc v1.22.1
 )
 
 go 1.13
